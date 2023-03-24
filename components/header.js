@@ -16,7 +16,7 @@ function header(){
                     className="flex items-center gap-4 lg:px-0"
                     href="/"
                 >
-                    <div className='font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-blue-300 '>
+                    <div className='font-large font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-blue-300 '>
                         Shajid Muntaser's Portfolio
                     </div>
                     
@@ -67,9 +67,7 @@ function header(){
                         </h1>
                     </Link>
 
-                    <Link href="/contact"
-                        target="_blank"
-                        rel="noopener noreferrer">
+                    <Link href="/contact">
                         <h1 className="font-medium text-white hover:text-red-500 transition-in duration-500 ease-out 
                       border-b-2 border-transparent hover:border-red-500 px-3 mr-6 mb-3 md:mb-0">
                             Contact

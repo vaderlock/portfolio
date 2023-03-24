@@ -18,14 +18,14 @@ function footer() {
                     rel="noopener noreferrer"
                     className='mr-6'>
                     
-                    <img src='/github.png' alt='github icon' width='50' height='50'/>
+                    <img className="hover:scale-125 duration-500" src='/github.png' alt='github icon' width='50' height='50'/>
 
                     </a>
                     <a href='https://www.linkedin.com/in/shajid-muntaser-663473220/'
                     target="_blank"
                     rel="noopener noreferrer">
 
-                    <img src='/linkedin.png' alt='linkedin icon' width='50' height='50'/>
+                    <img className="hover:scale-125 duration-500" src='/linkedin.png' alt='linkedin icon' width='50' height='50'/>
 
                     </a>
                 </div>

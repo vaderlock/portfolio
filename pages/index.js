@@ -1,10 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import Header from '../components/header'
 import Footer from '../components/footer'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -20,21 +17,20 @@ export default function Home() {
 
       <Header/>
 
-      <main className="flex flex-col w-full flex-1 items-center justify-center px-20 text-center my-40 md:my-60">
+      <main className="flex flex-col w-full flex-1 items-center justify-between px-20 my-5 text-center">
         
-        <div className="flex w-full flex-row items-center justify-center">
-          <h1 className="flex flex-col text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-blue-300 pb-3">
-                  {/* Portfolio */}
-          </h1>
+      <div className="flex flex-col items-center justify-center">
+        <h1 className="text-3xl font-bold pb-3">Welcome to my portfolio</h1>
+      </div>
+        
+      <div className="flex flex-col items-center justify-center">
 
-          <h2 className="text-black pt-3 font-medium">
+      <h1 className="bg-zinc-700 text-1xl font-bold pb-3">My name is Shajid Muntaser and I am a senior at New York Tech studying computer science with a concentration in network security. As a full-stack developer for several projects and a coding instructor at iD Tech, 
+      I have honed excellent programming skills that, combined with exceptional problem-solving and time management abilities, enable me to excel in various situations. Driven by a passion for programming and business development, 
+      I'm eager to further develop my skills as an engineer in a dynamic and stimulating setting. I'm excited to leverage my expertise to create innovative solutions and contribute to impactful projects.
+      Overall, I'm dedicated to making a positive impact in the technology field and eager to explore opportunities to contribute to an organization's growth and success.</h1>
 
-          </h2>
-        </div>
-
-        <div>
-
-        </div>
+      </div>
 
 
       </main>
