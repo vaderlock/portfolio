@@ -10,17 +10,18 @@ function header(){
     // };
     return(
         <nav className='flex border-b border-red-500 p-5'>
-             {/* <div className='relative flex h-10 items-center justify-between'>
+
+             <div className='relative flex items-center justify-between'>
                 <Link
                     className="flex items-center gap-4 lg:px-0"
                     href="/"
                 >
-                    <div className='flex'>
-                        <Image className="" src="/" alt="Logo" width={200} height={200}/>
+                    <div className='font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-blue-300 '>
+                        Shajid Muntaser's Portfolio
                     </div>
                     
                 </Link>
-            </div> */}
+            </div>
             {/* <button
             className='inline-flex p-3 bg-purple-700 hover:bg-purple-800 rounded lg:hidden text-white ml-auto hover:text-white outline-none'
             onClick={handleClick}
@@ -43,7 +44,7 @@ function header(){
 
             <div
             className='w-full lg:inline-flex lg:flex-grow lg:w-auto md:pt-0 mt-4 p-4 rounded-xl'>
-                <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto pt-2'>
+                <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto pt-2'>
                     
                     <Link href="/projects">
                         <h1 className="font-medium text-white hover:text-red-500 transition-in duration-500 ease-out 
@@ -59,7 +60,7 @@ function header(){
                         </h1>
                     </Link>
 
-                    <Link href="/Profiles">
+                    <Link href="/profiles">
                         <h1 className="font-medium text-white hover:text-red-500 transition-in duration-500 ease-out 
                       border-b-2 border-transparent hover:border-red-500 px-3 mr-6 mb-3 md:mb-0">
                             Profiles

@@ -205,6 +205,26 @@
   margin-right: 0.5em;
 }
 
+@font-face {
+  font-family: 'Apple Garamond';
+  src: url('../public/font/AppleGaramond-bold.ttf') format('truetype');
+}
+
+/* Apply Apple Garamond font to body */
+body {
+  font-family: 'Apple Garamond', sans-serif;
+}
+
+/* Apply Apple Garamond font to headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Apple Garamond', sans-serif;
+}
+
+/* Apply Apple Garamond font to any other elements */
+.my-element {
+  font-family: 'Apple Garamond', sans-serif;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
