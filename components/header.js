@@ -2,7 +2,7 @@ import { memo, useState, useMemo } from 'react';
 import Image from 'next/image';
 import Link from "next/link";
 
-function header() {
+function Header() {
     const [active, setActive] = useState(false);
 
     const handleClick = () => {
@@ -82,4 +82,4 @@ function header() {
 }
 
 
-export default memo(header);
+export default memo(Header);
