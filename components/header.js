@@ -16,9 +16,10 @@ function header(){
                     className="flex items-center gap-4 lg:px-0"
                     href="/"
                 >
-                    <div className='font-large font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-blue-300 '>
-                        Shajid Muntaser's Portfolio
-                    </div>
+                
+                <div className='font-large font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-blue-300'>
+                <h1>Shajid Muntaser&apos;s Portfolio</h1>
+                </div>
                     
                 </Link>
             </div>

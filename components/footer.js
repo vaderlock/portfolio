@@ -26,7 +26,7 @@ function footer() {
                     target="_blank"
                     rel="noopener noreferrer">
 
-                    <Image className="hover:scale-125 duration-500" src='/linkedin.png' alt='linkedin icon' width='50' height='50'/>
+                    <Image className="hover:scale-125 duration-500" src='/linkedin1.png' alt='linkedin icon' width='50' height='50'/>
 
                     </a>
                 </div>
