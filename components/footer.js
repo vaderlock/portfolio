@@ -8,7 +8,7 @@ function footer() {
             <div className='flex items-center justify-center  lg:justify-between'>
                 <div className="mr-12 lg:block">
                     
-                    <p>Built by Vaderlock</p>
+                    <p>Built by Shajid Muntaser</p>
                     {/* <p>v0.0.0</p> */}
 
                 </div> 
