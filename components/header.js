@@ -61,7 +61,7 @@ function Header() {
                             Resume
                         </h1>
                     </Link>
-                    <Link href="/Profiles">
+                    <Link href="/profiles">
                         <h1 className="font-medium text-white hover:text-red-500 transition-in duration-500 ease-out 
                       border-b-2 border-transparent hover:border-red-500 px-3 mr-6 mb-3 md:mb-0">
                             Profiles
